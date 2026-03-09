@@ -13,7 +13,7 @@ graph TD
 
     UD -- "OpenVPN Tunnel (tun0)" --> PF
 
-    subgraph Infrastructure [Enterprise Lab]
+    subgraph Infrastructure [ ]
         PF{pfSense Firewall <br/> Core Gateway}
         
         subgraph LAN_Zone [LAN - 10.10.10.0/24]
