@@ -5,6 +5,7 @@ This project demonstrates the design, implementation, and auditing of a segmente
 
 The primary goal was to achieve a **Zero-Trust** management model where sensitive administrative interfaces are only accessible via a cryptographically secure **OpenVPN** tunnel, effectively mitigating common hypervisor-level security leaks.
 
+```mermaid
 graph TD
     subgraph External_Network [Internet / WAN]
         UD[Ubuntu Desktop Admin <br/> 10.0.2.10]
@@ -32,11 +33,10 @@ graph TD
         PF --- MGMT_Zone
     end
 
-    style PF fill:#f96,stroke:#333,stroke-width:2px
+    style PF fill:#f20,stroke:#333,stroke-width:2px
     style UD fill:#3498db,color:#fff
-    style MGMT_Zone fill:#e74c3c,color:#fff
-
-
+    style MGMT_Zone fill:color:#fff
+```
 
 ## 🏗️ Network Architecture
 The infrastructure is divided into four distinct security zones:
