@@ -67,4 +67,4 @@ The infrastructure is divided into four distinct security zones:
 * `scripts/`: Automation scripts for secure VPN management (`vpn-start.sh`, `vpn-stop.sh`, `ipconfig.sh`).
 
 ---
-*Developed for professional showcase*
+*Developed for professional showcase by Carles Comas Pérez*
