@@ -45,6 +45,20 @@ The infrastructure is divided into four distinct security zones:
 * **DMZ (Public Services):** Isolated segment for web services (Docker/Nginx).
 * **MGMT (Administrative):** A private management network used exclusively for firewall and server auditing.
 
+## 🗺️ Project Roadmap
+Click on each phase to view the detailed technical documentation and evidence:
+
+1. [**Phase 01: pfSense Installation & Base Configuration**](./docs/phase-01-pfsense-setup.md)
+2. [**Phase 02: Windows Server 2022 & Active Directory Deployment**](./docs/phase-02-windows-server-ad.md)
+3. [**Phase 03: Ubuntu Server & DMZ Environment Setup**](./docs/phase-03-ubuntu-server-dmz.md)
+4. [**Phase 04: Active Directory Hardening & GPO Implementation**](./docs/phase-04-active-directory-hardening.md)
+5. [**Phase 05: Docker Microservices & Containerization**](./docs/phase-05-docker-services.md)
+6. [**Phase 06: Firewall Rules, Aliases & Security Policies**](./docs/phase-06-firewall-rules-aliases.md)
+7. [**Phase 07: Static Routing & Inter-VLAN Management**](./docs/phase-07-static-routing.md)
+8. [**Phase 08: NAT, Port Forwarding & Service Publication**](./docs/phase-08-nat-and-port-forwarding.md)
+9. [**Phase 09: Remote Access VPN & PKI Infrastructure**](./docs/phase-09-openvpn-pki-config.md)
+10. [**Phase 10: Final Audit, Troubleshooting & Automation**](./docs/phase-10-final-audit-automation.md)
+
 ## 🛠️ Tech Stack & Skills
 * **Firewall/Routing:** pfSense (VLANs, NAT, OpenVPN, Stateful Inspection).
 * **Identity Management:** Windows Server 2022 (AD DS, DNS, DHCP).
