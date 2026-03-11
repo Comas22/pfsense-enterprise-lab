@@ -57,7 +57,6 @@ Click on each phase to view the detailed technical documentation and evidence:
 7. [**Phase 07: Static Routing & Inter-VLAN Management**](./docs/phase-07-static-routing.md)
 8. [**Phase 08: NAT, Port Forwarding & Service Publication**](./docs/phase-08-nat-and-port-forwarding.md)
 9. [**Phase 09: Remote Access VPN & PKI Infrastructure**](./docs/phase-09-openvpn-pki-config.md)
-10. [**Phase 10: Final Audit, Troubleshooting & Automation**](./docs/phase-10-final-audit-automation.md)
 
 ## 🛠️ Tech Stack & Skills
 * **Firewall/Routing:** pfSense (VLANs, NAT, OpenVPN, Stateful Inspection).

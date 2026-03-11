@@ -88,7 +88,7 @@ else
     exit 1
 fi
 ```
-*You can find the full script in the repository: [scripts/ip-config.sh](../scripts/ip-config.sh)*
+*You can find the full script in the repository: [scripts/ipconfig.sh](../scripts/ipconfig.sh)*
 
 ![Docker Hello World Execution](../assets/screenshots/ip-config-sh.png)
 
