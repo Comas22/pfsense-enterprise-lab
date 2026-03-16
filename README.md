@@ -77,7 +77,7 @@ Click on each phase to view the detailed technical documentation and evidence:
 ## 📂 Repository Structure
 * `assets/`: Network diagrams and evidence screenshots.
 * `docs/`: Detailed step-by-step documentation for all 9 Phases.
-* `scripts/`: Automation scripts for secure VPN management (`vpn-start.sh`, `vpn-stop.sh`, `ipconfig.sh`).
+* `scripts/`: Automation scripts for secure VPN management and ip configuration(`vpn-start.sh`, `vpn-stop.sh`, `ipconfig.sh`).
 
 ---
 *Developed for professional showcase by Carles Comas Pérez*
