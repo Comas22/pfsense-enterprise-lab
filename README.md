@@ -63,7 +63,7 @@ Click on each phase to view the detailed technical documentation and evidence:
 * **Identity Management:** Windows Server 2022 (AD DS, DNS, DHCP).
 * **Containerization:** Docker Engine & Docker Compose (Nginx Alpine).
 * **Operating Systems:** Ubuntu Server 24.04 (Hardened), Windows Server 2022 (Desktop Experience).
-* **Security Auditing:** Traceroute analysis, Firewall log correlation, and GPO forensics.
+* **Security Auditing:** Firewall log correlation, and GPO forensics.
 
 ## 🧠 Key Technical Challenges & Solutions
 ### 1. The Hypervisor Routing Leak
