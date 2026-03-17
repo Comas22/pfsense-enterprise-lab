@@ -10,7 +10,7 @@ The firewall was deployed as a Virtual Machine (VM) in VirtualBox with the follo
 * **CPU:** 1 Core.
 * **Storage:** 16 GB VDI.
 * **Network Interface:** 
-  * Adapter 1: NAT Network (`Simulated Wan`).
+  * Adapter 1: NAT Network (`Nat Network - Simulated WAN`).
   * Adapter 2: Internal Network (`intnet_shield_lan`).
   * Adapter 3: Internal Network (`intnet_dmz`).
   * Adapter 4: Host-Only Adapter (`vboxnet0`).
