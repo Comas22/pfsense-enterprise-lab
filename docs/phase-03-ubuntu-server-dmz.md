@@ -53,7 +53,7 @@ A native **Apache2** web server was deployed to test service accessibility withi
 ## ✅ Validation & Evidence
 * **Identity Audit:** Running `id Administrator@shield.corp` successfully returned the correct UID/GID and security groups from the Windows DC.
 * **Connectivity Proof:** Successful access to the Apache landing page via IP `10.10.50.10` from the management host.
-* **AD Verification:** Confirmed the server `SRV-WEB-01` (or equivalent) appears in the "Computers" Container of the Windows Active Directory.
+* **AD Verification:** Confirmed the server `SERVERDMZ` appears in the "Computers" Container of the Windows Active Directory.
 
 ---
 [⬅️ Back to README](../README.md)
