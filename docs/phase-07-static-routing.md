@@ -14,7 +14,7 @@ The following command was executed on the Ubuntu Server:
 docker run -d --name web-dmz -p 8080:80 nginx:alpine
 ```
 
-**Didactic Explanation:**
+
 * **`-d` (Detached):** The container runs in the background. As an administrator, this allows you to continue using the terminal while the service remains active.
 * **`--name web-dmz`:** We label the container. In production environments, using descriptive names is vital for automation and maintenance.
 * **`-p 8080:80` (Port Mapping):**
@@ -52,7 +52,7 @@ To correct this, the following configuration was applied:
 2. Placed it *above* the general pass rule.
 3. **Result:** When the DC attempts to access the web, pfSense finds the "Block" rule first and stops the packet before it reaches the "Allow" rule.
 
-**Didactic Lesson:** Always place the most specific rules (Blocks or single-port permissions) at the top, and the most general rules (Allow all) at the bottom.
+**Note:** Always place the most specific rules (Blocks or single-port permissions) at the top, and the most general rules (Allow all) at the bottom.
 
 ## 🔍 Log Auditing (Network vs. Application)
 As administrators, we must know how to cross-reference data between what the Firewall sees and what the Server sees.
